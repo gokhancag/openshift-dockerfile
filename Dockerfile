@@ -1,6 +1,6 @@
 FROM centos:7
 
-RUN yum update update && yum install -y python3 pip3
+RUN yum update -y && yum install -y python3 pip3
 
 RUN pip3 install flask 
 
