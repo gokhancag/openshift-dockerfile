@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Selamlar OpenShift with Dockerfile!"
+    return "Selamlar OpenShift with <b>Dockerfile!</b>"
 
 @app.route('/nasilsin')
 def nasilsin():
